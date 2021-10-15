@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  schedules: iactf(023b3aeb-c82e-4e3f-a09e-a09cea36b30f)
+  subscription: iactf(023b3aeb-c82e-4e3f-a09e-a09cea36b30f)
   resourceGroup: resourcegroup-tfstate
   storageAccount: terraformtfstateskip1
   container: tfstate
