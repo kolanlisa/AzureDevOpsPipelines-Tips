@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  subscription: azureiac(7133d4ad-1e02-4d76-95ef-d9a160075668)
+  subscription: Free Trial(aa2d088f-cef4-4f2f-8de7-37e0867df5dc)
   resourceGroup: resourcegroup-tfstate
   storageAccount: terraformtfstateskip1
   container: tfstate
