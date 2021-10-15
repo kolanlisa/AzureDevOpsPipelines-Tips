@@ -25,10 +25,10 @@ steps:
     provider: 'azurerm'
     command: 'init'
     workingDirectory: '$(System.DefaultWorkingDirectory)/skip-step'
-    backendServiceArm: '$(subscription)'
-    backendAzureRmResourceGroupName: '$(resourceGroup)'
-    backendAzureRmStorageAccountName: '$(storageAccount)'
-    backendAzureRmContainerName: '$(container)'
+    backendServiceArm: 'azureiac'
+    backendAzureRmResourceGroupName: 'resourcegroup-tfstate'
+    backendAzureRmStorageAccountName: 'terraformtfstateskip1'
+    backendAzureRmContainerName: 'tfstate'
     backendAzureRmKey: '$(tfstateFile)'
 
 - task: TerraformTaskV1@0
