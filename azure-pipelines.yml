@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  subscription: iactf(63522b46-b9ce-4664-bc9d-ce5ba9987a06)
+  subscription: azureiac(7133d4ad-1e02-4d76-95ef-d9a160075668)
   resourceGroup: resourcegroup-tfstate
   storageAccount: terraformtfstateskip1
   container: tfstate
